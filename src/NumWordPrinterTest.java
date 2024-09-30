@@ -11,5 +11,13 @@ public class NumWordPrinterTest {
 
     }
 
+    @Test
+    public void testPrimeElven()
+    {
+        NumWordPrinter printer=new NumWordPrinter();
+        String result=printer.printWord(11,false);
+        assertEquals("PrimeEleven",result);
+    }
+
 
 }
